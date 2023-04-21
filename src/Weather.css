@@ -1,0 +1,57 @@
+:root {
+  --light-color: #fffdff;
+  --dark-color: #193043;
+  --accent-color: #696f36;
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  color: var(--light-color);
+}
+
+.Weather {
+  border: solid thin var(--dark-color);
+  font-family: "Fira Sans", sans-serif;
+}
+
+.Weather h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: var(--accent-color);
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  list-style: none;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Weather .current-icon {
+  font-size: 50px;
+}
+
+.Weather .current-temp {
+  font-size: 25px;
+}
+
+.Weather .search-form-section {
+  padding: 15px;
+}
+
+.Weather .current-weather-section {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  padding: 15px;
+}
+
+.Weather .forecast-section {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 15px;
+}
