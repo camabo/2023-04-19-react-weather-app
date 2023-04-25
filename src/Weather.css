@@ -38,10 +38,6 @@
   line-height: 24px;
 }
 
-.Weather img {
-  font-size: 80px;
-}
-
 .Weather .temperature {
   font-weight: bold;
   font-size: 40px;
