@@ -4,9 +4,15 @@
   --accent-color: #696f36;
 }
 
+.Weather .form-control {
+  border: none;
+  color: var(--accent-color);
+}
 .btn-primary {
   background-color: var(--accent-color);
   color: var(--light-color);
+  border: 0;
+  border-radius: 3px;
 }
 
 .Weather {
@@ -16,8 +22,8 @@
 
 .Weather h1 {
   text-transform: uppercase;
-  font-size: 20px;
-  color: var(--accent-color);
+  font-size: 25px;
+  font-weight: bolder;
 }
 
 .Weather ul {
@@ -32,26 +38,33 @@
   line-height: 24px;
 }
 
-.Weather .current-icon {
-  font-size: 50px;
+.Weather img {
+  font-size: 80px;
 }
 
-.Weather .current-temp {
-  font-size: 25px;
+.Weather .temperature {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.Weather .unit {
+  font-size: 30px;
+  position: relative;
+  top: -13px;
 }
 
 .Weather .search-form-section {
   padding: 15px;
 }
 
-.Weather .current-weather-section {
+.Weather .current-forecast-section {
   background-color: var(--light-color);
   color: var(--dark-color);
-  padding: 15px;
+  padding: 35px;
 }
 
-.Weather .forecast-section {
+.Weather .future-forecast-section {
   background-color: var(--dark-color);
   color: var(--light-color);
-  padding: 15px;
+  padding: 35px;
 }
