@@ -24,7 +24,7 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <div className="search-form-section">
-          <form className="shadow-sm">
+          <form>
             <div className="row">
               <div className="col-9">
                 <input
@@ -38,7 +38,7 @@ export default function Weather(props) {
                 <input
                   type="submit"
                   value="Search"
-                  className="btn btn-primary w-100 shadow-sm"
+                  className="btn btn-primary w-100"
                 />
               </div>
             </div>
