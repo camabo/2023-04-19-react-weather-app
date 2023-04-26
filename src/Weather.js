@@ -67,9 +67,9 @@ export default function Weather(props) {
         <div className="future-forecast-section">
           <div className="row">
             <div className="col-2">
-              <div>Sat</div>
-              <div className="material-symbols-outlined">cloudy</div>
-              <div>2°C</div>
+              <div></div>
+              <div></div>
+              <div></div>
             </div>
           </div>
         </div>
